@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "pilot-test",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
