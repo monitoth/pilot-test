@@ -1,0 +1,4 @@
+appId: "com.pilot.test"
+publish:
+  provider: github
+  token: d8555e77eb3b198abe1c53dcd627172d3a4815ce
