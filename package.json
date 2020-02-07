@@ -5,6 +5,7 @@
   "dependencies": {
     "@capacitor/android": "^1.5.0",
     "@capacitor/core": "1.5.0",
+    "@capacitor/electron": "^1.5.0",
     "@ionic/react": "^4.11.8",
     "@ionic/react-router": "^4.11.8",
     "@testing-library/jest-dom": "^4.2.4",
@@ -50,7 +51,10 @@
   "devDependencies": {
     "@capacitor/cli": "1.5.0",
     "@types/classnames": "^2.2.9",
-    "classnames": "^2.2.6"
+    "capacitor-app": "file:electron",
+    "classnames": "^2.2.6",
+    "electron-builder": "^22.3.2",
+    "electron-updater": "^4.2.0"
   },
   "description": "Pilot test crossplatform app",
   "homepage": "./"

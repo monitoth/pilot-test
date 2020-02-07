@@ -33,10 +33,10 @@ const Home: React.FC = () => {
       <IonContent className="ion-padding">
         Crossplatform Pilot-test application 
         <p id="version"></p>    
-        <div id="notification" className={classNames(styles.notification, styles.hidden)}>
+        <div id="notification" className={classNames(styles.notification)}>
           <p id="message"></p>
           <IonButton id="close-button" color="primary" onClick={onCloseNotificationBox}>Close</IonButton>
-          <IonButton id="restart-button" color="secondary" onClick={onRestartDesktopApp} className={styles.hidden}>Restart</IonButton>
+          <IonButton id="restart-button" color="secondary" onClick={onRestartDesktopApp}>Restart</IonButton>
         </div>        
       </IonContent>
     </IonPage>

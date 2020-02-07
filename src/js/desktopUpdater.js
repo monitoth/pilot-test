@@ -38,6 +38,7 @@ export function closeNotification() {
 // Handles restarting the app to immediately install the downloaded update
 export function restartApp() {
     const electron = window.require('electron');
+    console.log('electron', electron);
     const ipcRenderer  = electron.ipcRenderer;
     const message = document.getElementById('message');
     message.innerText = 'Restarting';

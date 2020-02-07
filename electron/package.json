@@ -1,6 +1,6 @@
 {
-  "name": "pilot-test",
-  "version": "0.0.3",
+  "name": "capacitor-app",
+  "version": "1.0.0",
   "description": "An Amazing Capacitor App",
   "main": "index.js",
   "repository": {
@@ -14,12 +14,10 @@
   },
   "dependencies": {
     "@capacitor/electron": "^1.5.0",
-    "electron-is-dev": "^1.1.0",
-    "electron-updater": "^4.2.0"
+    "electron-is-dev": "^1.1.0"
   },
   "devDependencies": {
-    "electron": "^7.1.11",
-    "electron-builder": "^22.3.2"
+    "electron": "^7.0.0"
   },
   "keywords": [
     "capacitor",
