@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^1.5.0",
     "@capacitor/core": "1.5.0",
     "@ionic/react": "^4.11.8",
     "@ionic/react-router": "^4.11.8",
@@ -47,5 +48,5 @@
   "devDependencies": {
     "@capacitor/cli": "1.5.0"
   },
-  "description": "An Ionic project"
+  "description": "Pilot test crossplatform app"
 }
