@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-app",
-  "version": "1.0.0",
+  "name": "pilot-test",
+  "version": "0.0.4",
   "description": "An Amazing Capacitor App",
   "main": "index.js",
   "repository": {
